@@ -1,0 +1,38 @@
+.track {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 72px;
+}
+
+.track h1 {
+    align-self: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 8px;
+}
+
+.track h2 {
+    align-self: center;
+    color: #67ab73;
+    font-size: 30px;
+    margin: 8px;
+    margin-bottom: 72px;
+}
+
+.track h4 {
+    align-self: center;
+    color: white;
+    font-size: 14px;
+    margin: 64px;
+}
+
+.track span {
+    align-self: center;
+}
+
+.track label {
+    margin: 72px;
+    margin-top: 0px;
+    align-self: center;
+}

@@ -1,0 +1,9 @@
+.container {
+    overflow-x: hidden;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 0;
+    padding-left: 0;
+    flex-wrap: wrap;
+  };
