@@ -5,6 +5,7 @@ import Header from "../Header";
 import Track from "../Track";
 import HowItWorks from "../HowItWorks";
 import Documentation from "../Documentation";
+import Results from "../Results";
 
 const Home = () => {
   const uploader_ref = useRef(null);
@@ -27,7 +28,7 @@ const Home = () => {
     <Fragment>
         <Header functions={[handleTrackClick, handleInfoClick, handleDocsClick]}/>
         <div ref={uploader_ref}>
-          <Track/>
+          <Results/>
         </div>
         <div ref={how_it_works_ref}>
           <HowItWorks/>

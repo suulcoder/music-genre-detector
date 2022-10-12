@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## EXECUTE WITH:
+
+`python main.py`
+
+
+## TEST WITH:
+
+`curl -X POST -F audio_file=@<Your File> 'http://127.0.0.1:5000/'`
+
 ## Available Scripts
 
 In the project directory, you can run:

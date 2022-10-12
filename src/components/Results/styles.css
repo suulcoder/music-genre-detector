@@ -1,0 +1,129 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.result h1 {
+    align-self: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+.result h3 {
+    background-color: #430070;
+    align-self: center;
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    margin: 8px;
+}
+
+.data {
+    width: 90%;
+    background-color: #430070;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+    fill: #67ab73 !important;
+}
+
+.model {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.model_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5%;
+    background-color: white;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+
+.label {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 24px;
+}
+
+.model_data div {
+    width: 80%;
+}
+
+.metrics {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin: 8px;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #67ab73 !important
+}
+
+.active h3 {
+    transform: scale(1.1);
+}
+
+.result h2 {
+    align-self: center;
+    color: #67ab73;
+    font-size: 20px;
+    margin: 8px;
+    margin-bottom: 16px;
+}
+
+.result h4 {
+    align-self: center;
+    color: white;
+    font-size: 14px;
+    margin: 64px;
+}
+
+.result span {
+    align-self: center;
+}
+
+.result label {
+    margin: 72px;
+    margin-top: 0px;
+    align-self: center;
+}
+
+.result .tab-pane {
+    display: none;
+}
+
+.result .show {
+    display: flex !important;
+}
+
+.result .nav-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}

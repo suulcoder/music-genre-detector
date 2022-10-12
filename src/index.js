@@ -6,7 +6,7 @@ import Home from './components/Home';
 import { configureStore } from './store'
 
 const { store, persistor } = configureStore();
-window.document.title = 'Votark';
+window.document.title = 'Music Genre Detector';
 ReactDOM.render(
   <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
