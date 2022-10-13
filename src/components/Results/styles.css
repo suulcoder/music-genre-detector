@@ -12,6 +12,31 @@
     margin-bottom: 8px;
 }
 
+.Button {
+    max-width: 250px;
+    align-items: center;
+    text-align: center;
+    background-color: #67ab73;
+    color: white;
+    border-radius: 10px;
+    align-self: center;
+    cursor: pointer;
+    padding: 20px 16px;
+    margin-bottom: 24px;
+}
+
+.Button h2 {
+    font-size: 16px !important;
+    color: #430070 !important;
+    margin: 0 !important
+}
+
+.error {
+    padding: 100px;
+    color: red !important;
+    text-align: center;
+}
+
 .result h3 {
     background-color: #430070;
     align-self: center;

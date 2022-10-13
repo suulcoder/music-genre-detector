@@ -30,7 +30,6 @@ export const configureStore = () => {
   const store = createStore(
     persistedReducer,
     composeEnhancers(
-
       applyMiddleware(sagaMiddleware),
     ),
   );

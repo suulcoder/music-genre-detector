@@ -6,8 +6,9 @@ import Track from "../Track";
 import HowItWorks from "../HowItWorks";
 import Documentation from "../Documentation";
 import Results from "../Results";
+import { getModelsData } from "../../reducers";
 
-const Home = () => {
+const Home = ({isFetched}) => {
   const uploader_ref = useRef(null);
   const how_it_works_ref = useRef(null);
   const docs_ref = useRef(null);
@@ -28,7 +29,7 @@ const Home = () => {
     <Fragment>
         <Header functions={[handleTrackClick, handleInfoClick, handleDocsClick]}/>
         <div ref={uploader_ref}>
-          <Results/>
+          {isFetched ? <Results/> : <Track/>}
         </div>
         <div ref={how_it_works_ref}>
           <HowItWorks/>
@@ -46,6 +47,8 @@ const Home = () => {
 
 
 export default connect(
-  undefined,
-  undefined,
+  state => ({
+    isFetched: getModelsData(state)!=null
+  }),
+  undefined
 )(Home)
