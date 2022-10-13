@@ -117,6 +117,7 @@ export default connect(
     dispatch => ({
         onRestart() {
             dispatch(actions.restartModelApiCall());  
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         },
     }),
 )(Results)
