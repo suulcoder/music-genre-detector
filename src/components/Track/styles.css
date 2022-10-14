@@ -10,9 +10,11 @@
     color: white;
     font-size: 50px;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .track h2 {
+    text-align: center;
     align-self: center;
     color: #67ab73;
     font-size: 30px;
