@@ -39,7 +39,7 @@ const Results = ({data, onRestart}) => {
         {
             Object.keys(data).length == 0 ?
             <h1 className="error">
-                Oops Your song was so great that it broke our models!
+                Oops Your song was so great that it broke the internet!
             </h1> :
             <Fragment>
                 <MDBTabs className='mb-3'>

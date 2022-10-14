@@ -10,7 +10,7 @@
     color: white;
     font-size: 40px;
     margin-bottom: 8px;
-}
+} 
 
 .Button {
     max-width: 250px;
@@ -152,4 +152,14 @@
     justify-content: center;
     align-items: center;
     padding: 8px;
+}
+
+::marker {
+    color: #430070;
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.label span {
+    display: none !important;
 }
