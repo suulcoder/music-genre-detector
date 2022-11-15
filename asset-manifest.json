@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/music-genre-detector/static/css/main.8420d112.css",
-    "main.js": "/music-genre-detector/static/js/main.6fa6e751.js",
+    "main.js": "/music-genre-detector/static/js/main.c0847ac5.js",
     "static/media/logo.png": "/music-genre-detector/static/media/logo.f765df459bccb222d8eb.png",
     "index.html": "/music-genre-detector/index.html",
     "main.8420d112.css.map": "/music-genre-detector/static/css/main.8420d112.css.map",
-    "main.6fa6e751.js.map": "/music-genre-detector/static/js/main.6fa6e751.js.map"
+    "main.c0847ac5.js.map": "/music-genre-detector/static/js/main.c0847ac5.js.map"
   },
   "entrypoints": [
     "static/css/main.8420d112.css",
-    "static/js/main.6fa6e751.js"
+    "static/js/main.c0847ac5.js"
   ]
 }
