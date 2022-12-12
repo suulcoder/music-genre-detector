@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/music-genre-detector/static/css/main.5650dbe3.css",
-    "main.js": "/music-genre-detector/static/js/main.b2b1c930.js",
+    "main.js": "/music-genre-detector/static/js/main.93e49642.js",
     "static/media/Presentation.pdf": "/music-genre-detector/static/media/Presentation.ccb0e349c6f4a7ce0a25.pdf",
     "static/media/Tesis.pdf": "/music-genre-detector/static/media/Tesis.a178bcbb5ae055087823.pdf",
     "static/media/logo.png": "/music-genre-detector/static/media/logo.f765df459bccb222d8eb.png",
     "index.html": "/music-genre-detector/index.html",
     "main.5650dbe3.css.map": "/music-genre-detector/static/css/main.5650dbe3.css.map",
-    "main.b2b1c930.js.map": "/music-genre-detector/static/js/main.b2b1c930.js.map"
+    "main.93e49642.js.map": "/music-genre-detector/static/js/main.93e49642.js.map"
   },
   "entrypoints": [
     "static/css/main.5650dbe3.css",
-    "static/js/main.b2b1c930.js"
+    "static/js/main.93e49642.js"
   ]
 }
